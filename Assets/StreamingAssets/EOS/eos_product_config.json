@@ -1,0 +1,38 @@
+{
+  "ProductName": "TestEOS",
+  "ProductId": "cd9678e797c9450286b117204fb037d3",
+  "ProductVersion": "1",
+  "imported": true,
+  "Clients": [
+    {
+      "Value": {
+        "ClientId": "xyza7891BNe26ARvgExnCLOK45BLzUXv",
+        "ClientSecret": "NTxhyPmpbRxcdyImFDuJRsSCzdgMRTNZKSHVgocGSPI",
+        "EncryptionKey": "5CCF1417B75772A00008E5C259C4A67EA57CAF08D46B3D1CB3C70BAFC02FC58B"
+      },
+      "Name": "Client"
+    }
+  ],
+  "Environments": {
+    "Deployments": [
+      {
+        "Value": {
+          "SandboxId": {
+            "Value": "p-nxnajbchezak3bl2eyhcvvwtrnzlcm"
+          },
+          "DeploymentId": "f0a5cf30478e49929a3ca22c4821fe89"
+        },
+        "Name": "Deployment"
+      }
+    ],
+    "Sandboxes": [
+      {
+        "Value": {
+          "Value": "p-nxnajbchezak3bl2eyhcvvwtrnzlcm"
+        },
+        "Name": "Sandbox"
+      }
+    ]
+  },
+  "schemaVersion": "1.0"
+}
