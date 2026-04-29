@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0.00048828125}
+  m_SizeDelta: {x: -0.0001, y: -0.0010986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207147542
 MonoBehaviour:
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 835541815}
   - component: {fileID: 835541814}
   m_Layer: 0
-  m_Name: s
+  m_Name: EosAuthManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,8 +689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.7264, y: 94.56488}
-  m_SizeDelta: {x: 1117.1497, y: 239.1298}
+  m_AnchoredPosition: {x: -0.00058746, y: -0.00012112}
+  m_SizeDelta: {x: 766.89, y: 338.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375737370
 MonoBehaviour:
@@ -820,6 +820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfddef7a9e97e1346b5d52f041c730e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EOSLogin
+  statusText: {fileID: 1375737370}
 --- !u!4 &1471217166
 Transform:
   m_ObjectHideFlags: 0
